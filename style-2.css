@@ -117,41 +117,28 @@ second section
     background-color: red;
 }
 
+/* ---------
+flag part 
+-------------*/
 
 .main-part {
     width: 75%;
 }
 
-.live-tournaments {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.tournament{
-    border: 1.3px solid rgb(216, 213, 213);
-    border-radius: 10px;
-    margin: 9px;
-
-}
-.live-info{
-    padding: 10px 15px;
-}
-.live-info h3{
-    padding-bottom: 0;
-    margin-bottom: 0;
-}
-.live-info a{
-    text-decoration: none;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 5px 10px;
-}
-.duration-comment{
+.flags {
     display: flex;
 }
-.duration{
-    margin-right: 20px;
+.flag1{
+    display: inline;
 }
+.flag2{
+    display: inline;
+}   
+.match{
+    border: 2px solid red;
+}
+
+
 
 /*-------------
  footer 
@@ -196,4 +183,14 @@ footer ul li a:hover{
 footer ul li{
     display: inline-block;
     padding: 0 15px;
+}
+
+/* -------------
+new flag style
+--------------- */
+.flags{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 1px solid gray;
+    border-radius: 5px;
 }
